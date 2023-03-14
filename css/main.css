@@ -114,6 +114,54 @@ nav .nav-burger .nav-items a {
   text-shadow: 0 1px 3px black;
 }
 
+.about_us {
+  background-color: #232323;
+  padding: 1.5rem;
+}
+.about_us_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.about_us_heading {
+  font-size: 4.5rem;
+  color: #f3c278;
+  margin-top: 1.2rem;
+  padding: 1rem 0;
+}
+.about_usp {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 1rem 1rem 0;
+  line-height: 2.2rem;
+}
+.about_uswrap_img {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+.about_uswrap_imgfirst {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_uswrap_imgsecond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about_us_img {
+  aspect-ratio: 1/1;
+  width: 40vw;
+  margin: 5px 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 0 7px #000;
+}
+
 .gallery {
   background-color: #343434;
 }
@@ -190,7 +238,25 @@ nav .nav-burger .nav-items a {
   color: #fbe088;
 }
 
+@media (min-width: 768px) {
+  .about_us {
+    padding: 2rem;
+  }
+  .about_us_heading {
+    font-size: 4rem;
+  }
+  .about_us__p {
+    font-size: 1.7rem;
+    padding: 1rem 5rem 1rem 0;
+  }
+  .about_us_img {
+    width: 35vw;
+  }
+}
 @media (min-width: 992px) {
+  .wrapper {
+    padding: 6em;
+  }
   nav {
     padding: 2em;
   }
@@ -225,10 +291,33 @@ nav .nav-burger .nav-items a {
     padding: 1em 2em;
     font-size: 20px;
   }
-}
-@media (min-width: 992px) {
-  .wrapper {
-    padding: 6em;
+  .about_us_wrapper {
+    flex-direction: row-reverse;
+    padding: 2rem;
+  }
+  .about_us_wrapper_content {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+  }
+  .about_us_heading {
+    font-size: 5rem;
+    align-self: flex-start;
+  }
+  .about_usp {
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 0;
+  }
+  .about_uswrap_img {
+    flex-basis: 50%;
+    padding-right: 4rem;
+  }
+  .about_us_img {
+    width: 22vw;
+    max-width: 280px;
+    margin: 10px;
   }
   .gallery-box-header__heading {
     font-size: 7rem;
@@ -261,5 +350,14 @@ nav .nav-burger .nav-items a {
   }
   .gallery-box__see-more-link {
     font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about_us_heading {
+    font-size: 7rem;
+  }
+  .about_us__p {
+    font-size: 1.9rem;
+    padding: 1rem 1rem 1rem 0;
   }
 }/*# sourceMappingURL=main.css.map */

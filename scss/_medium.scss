@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+	// About us
+	.about_us {
+		padding: 2rem;
+
+		&_heading {
+			font-size: 4rem;
+		}
+
+		&__p {
+			font-size: 1.7rem;
+			padding: 1rem 5rem 1rem 0;
+		}
+
+		&_img {
+			width: 35vw;
+		}
+	}
+}

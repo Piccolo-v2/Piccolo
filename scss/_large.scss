@@ -1,4 +1,10 @@
 @media (min-width: 992px) {
+	// Components
+	.wrapper {
+		padding: 6em;
+	}
+
+	// Nav
 	nav {
 		.logo {
 			h3 {
@@ -26,6 +32,7 @@
 		}
 	}
 
+	// Header
 	.header {
 		background-image: url(/images/pizza-3000274_1920.jpg);
 	}
@@ -47,11 +54,42 @@
 			font-size: 20px;
 		}
 	}
-}
-@media (min-width: 992px) {
-	// Components
-	.wrapper {
-		padding: 6em;
+
+	// About us
+	.about_us {
+		&_wrapper {
+			flex-direction: row-reverse;
+			padding: 2rem;
+
+			&_content {
+				margin-top: 6rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				flex-basis: 50%;
+			}
+		}
+
+		&_heading {
+			font-size: 5rem;
+			align-self: flex-start;
+		}
+
+		&p {
+			font-size: 1.5rem;
+			padding: 1rem 1rem 1rem 0;
+		}
+
+		&wrap_img {
+			flex-basis: 50%;
+			padding-right: 4rem;
+		}
+
+		&_img {
+			width: 22vw;
+			max-width: 280px;
+			margin: 10px;
+		}
 	}
 
 	// Galeria
@@ -95,6 +133,19 @@
 
 		&-box__see-more-link {
 			font-size: 3rem;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.about_us {
+		&_heading {
+			font-size: 7rem;
+		}
+
+		&__p {
+			font-size: 1.9rem;
+			padding: 1rem 1rem 1rem 0;
 		}
 	}
 }
