@@ -13,7 +13,11 @@ html {
 
 body {
   height: 500vh;
-  background-color: #161616;
+  background-color: #232323;
+}
+
+.active {
+  color: #F3C278;
 }
 
 .wrapper {
@@ -26,8 +30,40 @@ body {
   position: relative;
   background-size: cover;
   background-position: cover;
-  background-image: url(/images/pizza-3000274_1920.jpg);
+  background-image: url(/images/pizza-3000274_640.jpg);
   height: 100vh;
+  z-index: 7;
+}
+
+nav {
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+nav .logo h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Pinyon Script", cursive;
+}
+nav .nav-burger {
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 4;
+}
+nav .nav-burger .burger-icon {
+  width: 2rem;
+  cursor: pointer;
+}
+nav .nav-burger .nav-items {
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  display: none;
+}
+nav .nav-burger .nav-items a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .hero-bg {
@@ -35,6 +71,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
 }
 
 .hero-text {
@@ -43,10 +80,38 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+.hero-text h1 {
+  margin: 2rem;
+  font-size: 8rem;
+  font-family: "Pinyon Script", cursive;
+}
+.hero-text p {
+  margin-bottom: 5rem;
+  font-family: "Signika", sans-serif;
+}
+.hero-text .menu-btn {
+  position: relative;
+  padding: 1em 2em;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  z-index: 1200;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s;
+}
+.hero-text .menu-btn:hover {
+  background-color: #F3C278;
+  color: white;
+  text-shadow: 0 1px 3px black;
 }
 
 .gallery {
-  background-color: #4b4a4a;
+  background-color: #343434;
 }
 .gallery-box-header {
   margin-bottom: 6em;
@@ -55,7 +120,7 @@ body {
 .gallery-box-header__heading {
   font-size: 5rem;
   font-weight: bold;
-  color: rgb(90, 90, 25);
+  color: #F3C278;
 }
 .gallery-box-header__p {
   font-size: 1.6rem;
@@ -74,4 +139,41 @@ body {
 }
 .gallery-box__see-more-btn {
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  nav {
+    padding: 2em;
+  }
+  nav .logo h3 {
+    font-size: 4rem;
+  }
+  nav .nav-burger .burger-icon {
+    display: none;
+  }
+  nav .nav-burger .nav-items {
+    display: block;
+    text-transform: uppercase;
+  }
+  nav .nav-burger .nav-items a {
+    padding: 10px 17px;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .header {
+    background-image: url(/images/pizza-3000274_1920.jpg);
+  }
+  .hero-text h1 {
+    margin: 3rem;
+    font-size: 15rem;
+  }
+  .hero-text p {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 2em;
+  }
+  .hero-text .menu-btn {
+    padding: 1em 2em;
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
