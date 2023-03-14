@@ -18,13 +18,10 @@ html {
 body {
   height: 500vh;
   background-color: #232323;
-<<<<<<< Updated upstream
 }
 
 .active {
-  color: #F3C278;
-=======
->>>>>>> Stashed changes
+  color: #f3c278;
 }
 
 .wrapper {
@@ -112,20 +109,17 @@ nav .nav-burger .nav-items a {
   transition: background-color 0.4s, color 0.4s;
 }
 .hero-text .menu-btn:hover {
-  background-color: #F3C278;
+  background-color: #f3c278;
   color: white;
   text-shadow: 0 1px 3px black;
 }
 
 .gallery {
   background-color: #343434;
-<<<<<<< Updated upstream
-=======
 }
 .gallery-box {
   display: flex;
   flex-direction: column;
->>>>>>> Stashed changes
 }
 .gallery-box-header {
   margin-bottom: 8em;
@@ -134,11 +128,7 @@ nav .nav-burger .nav-items a {
 .gallery-box-header__heading {
   font-size: 5rem;
   font-weight: bold;
-<<<<<<< Updated upstream
-  color: #F3C278;
-=======
   color: #f3c278;
->>>>>>> Stashed changes
 }
 .gallery-box-header__p {
   font-size: 1.6rem;
@@ -196,7 +186,9 @@ nav .nav-burger .nav-items a {
   transition: color 0.3s;
   cursor: pointer;
 }
-<<<<<<< Updated upstream
+.gallery-box__see-more-link:hover, .gallery-box__see-more-link:focus {
+  color: #fbe088;
+}
 
 @media (min-width: 992px) {
   nav {
@@ -232,11 +224,8 @@ nav .nav-burger .nav-items a {
   .hero-text .menu-btn {
     padding: 1em 2em;
     font-size: 20px;
-=======
-.gallery-box__see-more-link:hover, .gallery-box__see-more-link:focus {
-  color: #fbe088;
+  }
 }
-
 @media (min-width: 992px) {
   .wrapper {
     padding: 6em;
@@ -272,6 +261,5 @@ nav .nav-burger .nav-items a {
   }
   .gallery-box__see-more-link {
     font-size: 3rem;
->>>>>>> Stashed changes
   }
 }/*# sourceMappingURL=main.css.map */

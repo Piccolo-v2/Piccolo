@@ -1,56 +1,53 @@
-<<<<<<< Updated upstream
-@media (min-width:992px) {
-    nav {
+@media (min-width: 992px) {
+	nav {
+		.logo {
+			h3 {
+				font-size: 4rem;
+			}
+		}
 
-        .logo {
-            h3 {
-                font-size: 4rem;
-            }
-        }
+		padding: 2em;
 
-        padding: 2em;
+		.nav-burger {
+			.burger-icon {
+				display: none;
+			}
 
-        .nav-burger {
-            .burger-icon {
-                display: none;
-            }
+			.nav-items {
+				display: block;
+				text-transform: uppercase;
 
-            .nav-items {
-                display: block;
-                text-transform: uppercase;
+				a {
+					padding: 10px 17px;
+					font-weight: bold;
+					font-size: 2em;
+				}
+			}
+		}
+	}
 
-                a {
-                    padding: 10px 17px;
-                    font-weight: bold;
-                    font-size: 2em;
-                }
-            }
-        }
-    }
+	.header {
+		background-image: url(/images/pizza-3000274_1920.jpg);
+	}
 
-    .header {
-        background-image: url(/images/pizza-3000274_1920.jpg);
-    }
+	.hero-text {
+		h1 {
+			margin: 3rem;
+			font-size: 15rem;
+		}
 
-    .hero-text {
-        h1 {
-            margin: 3rem;
-            font-size: 15rem;
-        }
+		p {
+			font-size: 3rem;
+			text-align: center;
+			padding: 0 2em;
+		}
 
-        p {
-            font-size: 3rem;
-            text-align: center;
-            padding: 0 2em;
-        }
-
-        .menu-btn {
-            padding: 1em 2em;
-            font-size: 20px;
-        }
-    }
+		.menu-btn {
+			padding: 1em 2em;
+			font-size: 20px;
+		}
+	}
 }
-=======
 @media (min-width: 992px) {
 	// Components
 	.wrapper {
@@ -101,4 +98,3 @@
 		}
 	}
 }
->>>>>>> Stashed changes
