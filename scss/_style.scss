@@ -10,16 +10,14 @@ body {
 	background-color: c.$darker-section-bg;
 }
 
+// Components
 .wrapper {
 	margin: 0 auto;
-	width: 100%;
+	padding: 2em;
 	max-width: 1200px;
-
-	.nav-items {
-		color: c.$white;
-	}
 }
 
+// Header
 .header {
 	position: relative;
 	background-size: cover;
@@ -32,7 +30,7 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .hero-text {
@@ -43,10 +41,7 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-.wrapper {
-	padding: 2em;
-}
-
+// Gallery
 .gallery {
 	background-color: c.$dark-section-bg;
 
