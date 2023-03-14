@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sources":["../scss/_reset.scss","main.css","../scss/_style.scss","../scss/_colors.scss"],"names":[],"mappings":"AAAA;;;EAGC,SAAA;EACA,UAAA;EACA,sBAAA;ACCD;;ACJA;EACC,uBAAA;EACA,gBAAA;ADOD;;ACJA;EACC,aAAA;EACA,yBCPmB;AFcpB;;ACJA;EACC,YAAA;ADOD;;ACJA;EACC,yBChBiB;AFuBlB;ACLC;EACC,kBAAA;EACA,kBAAA;ADOF;ACJC;EACC,eAAA;EACA,iBAAA;EACA,sBC3BK;AFiCP;ACHC;EACC,iBAAA;EACA,WC7BM;ED8BN,gBAAA;ADKF;ACFC;EACC,aAAA;EACA,mCAAA;EACA,qCAAA;EACA,QAAA;ADIF;ACDC;EACC,WAAA;EACA,aAAA;ADGF;ACAC;EACC,eAAA;ADEF","file":"main.css"}
+=======
+{"version":3,"sources":["../scss/_style.scss","../scss/_colors.scss","main.css"],"names":[],"mappings":"AAEA;EACC,yBCFiB;ACClB;;AFIA;EACC,cAAA;EACA,WAAA;EACA,iBAAA;AEDD;AFGC;EACC,WCTM;ACQR;;AFKA;EACC,kBAAA;EACA,sBAAA;EACA,0BAAA;EACA,qDAAA;EACA,aAAA;AEFD;;AFKA;EACC,kBAAA;EACA,WAAA;EACA,YAAA;EACA,oCAAA;AEFD;;AFKA;EACC,YAAA;EACA,kBAAA;EACA,QAAA;EACA,SAAA;EACA,gCAAA;AEFD","file":"main.css"}
+>>>>>>> Stashed changes

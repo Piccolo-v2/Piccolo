@@ -23,6 +23,7 @@ body {
 .gallery {
   background-color: #4b4a4a;
 }
+<<<<<<< Updated upstream
 .gallery-box-header {
   margin-bottom: 6em;
   text-align: center;
@@ -49,4 +50,37 @@ body {
 }
 .gallery-box__see-more-btn {
   cursor: pointer;
+=======
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.wrapper .nav-items {
+  color: #fff;
+}
+
+.header {
+  position: relative;
+  background-size: cover;
+  background-position: cover;
+  background-image: url(/images/pizza-3000274_1920.jpg);
+  height: 100vh;
+}
+
+.hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
