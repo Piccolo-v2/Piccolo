@@ -1,3 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 body {
+  height: 500vh;
+  background-color: #161616;
+}
+
+.wrapper {
+  padding: 2em;
+}
+
+.gallery {
   background-color: #4b4a4a;
+}
+.gallery-box-header {
+  margin-bottom: 6em;
+  text-align: center;
+}
+.gallery-box-header__heading {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(90, 90, 25);
+}
+.gallery-box-header__p {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.2;
+}
+.gallery-box-images {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+.gallery-box-images__image {
+  width: 100%;
+  height: 150px;
+}
+.gallery-box__see-more-btn {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
