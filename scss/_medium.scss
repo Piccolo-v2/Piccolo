@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+
+	//header
+	.header {
+		nav {
+			.logo {
+				h3 {
+					font-size: 5rem;
+				}
+			}
+		}
+
+		.header-content {
+			p {
+				font-size: 2.4rem;
+			}
+
+			&__menu-btn {
+				padding: 1.5em 3em;
+				font-size: 2rem;
+			}
+		}
+	}
+
+	// About us
+	.about_us {
+		padding: 2rem;
+
+		&_heading {
+			font-size: 4rem;
+		}
+
+		&__p {
+			font-size: 1.7rem;
+			padding: 1rem 5rem 1rem 0;
+		}
+
+		&_img {
+			width: 35vw;
+		}
+	}
+}
