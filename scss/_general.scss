@@ -1,0 +1,15 @@
+@use 'colors' as c;
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	height: 500vh;
+	background-color: c.$darker-section-bg;
+}
+
+.active {
+	color: c.$main;
+}

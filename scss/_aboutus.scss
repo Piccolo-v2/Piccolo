@@ -1,0 +1,128 @@
+@use 'colors' as c;
+
+.about_us {
+    background-color: c.$darker-section-bg;
+    padding: 1.5rem;
+
+    &_wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    &_heading {
+        font-size: 4.5rem;
+        color: c.$main;
+        margin-top: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    &p {
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem 1rem 1rem 0;
+        line-height: 2.2rem;
+    }
+
+    &wrap_img {
+        display: flex;
+        justify-content: space-around;
+        padding: 3rem 0;
+
+        &first {
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &second {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &_img {
+        aspect-ratio: 1 / 1;
+        width: 40vw;
+        margin: 5px 5px;
+        object-fit: cover;
+        box-shadow: 0 0 7px #000;
+    }
+}
+
+@media (min-width: 768px) {
+
+    // About us
+    .about_us {
+        padding: 2rem;
+
+        &_heading {
+            font-size: 4rem;
+        }
+
+        &__p {
+            font-size: 1.7rem;
+            padding: 1rem 5rem 1rem 0;
+        }
+
+        &_img {
+            width: 35vw;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .about_us {
+        &_wrapper {
+            flex-direction: row-reverse;
+            padding: 2rem;
+
+            &_content {
+                margin-top: 6rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-basis: 50%;
+            }
+        }
+
+        &_heading {
+            font-size: 5rem;
+            align-self: flex-start;
+        }
+
+        &p {
+            font-size: 1.5rem;
+            padding: 1rem 1rem 1rem 0;
+        }
+
+        &wrap_img {
+            flex-basis: 50%;
+            padding-right: 4rem;
+        }
+
+        &_img {
+            width: 22vw;
+            max-width: 280px;
+            margin: 10px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .about_us {
+        &_heading {
+            font-size: 7rem;
+        }
+
+        &__p {
+            font-size: 1.9rem;
+            padding: 1rem 1rem 1rem 0;
+        }
+    }
+}
